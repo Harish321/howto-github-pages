@@ -19,3 +19,17 @@
     height: 100px;
     width: 100%;
 }
+.step-box{
+    grid-template-columns: 1fr 0.5fr 5fr;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-gap:1rem;
+}
+.divider{
+    padding-top:2px;
+    border-radius: 50%;
+    border: 2px solid #bdbdbd;
+    height: 100%;
+    padding-bottom:2px;
+}
